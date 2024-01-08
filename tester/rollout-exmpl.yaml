@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: argo-auto-rollout
-        image: argoproj/rollouts-demo:yellow
+        image: argoproj/rollouts-demo:blue
         ports:
         - name: http
           containerPort: 8080
